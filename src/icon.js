@@ -9,7 +9,7 @@ class Icon extends React.Component {
 
   render() {
     return (
-      <div className="icon"><img src={this.props.text} /></div>
+      <div className={this.props.iconClass} />
     );
   }
 }

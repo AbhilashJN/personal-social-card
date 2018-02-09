@@ -7,13 +7,14 @@ import ItalicsText from './italicsText';
 import ContentText from './contentText';
 import BoldText from './boldText';
 import Photo from './photo';
+
 import IconsRow from './iconsRow';
 
 class Card extends React.Component {
   render() {
     const sampleContent = 'Click one of the social icons below to switch between card or click Contact Me link to show the contact form card.';
     const sampleItalics = 'Make sure you\'re running this experiment in the latest Chrome browser.';
-    const imgLink = 'img.png';
+    const imgLink = 'person3.png';
     return (
       <div className="card" >
         <Pill text="CONTACT ME" />

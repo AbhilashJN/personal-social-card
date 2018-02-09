@@ -36,30 +36,36 @@ body {
   padding-right: 8px;
   padding-top: 8px;
   padding-bottom:8px;
-  font-family:monospace;
+ 
 }
 
 
 
 .photo{
+  height:425px;
+  width: 400px;
   float:right;
-  background-image:url("img.png");
+  background-image:url("person3.png");
+  background-repeat: no-repeat;
+  
+  position:absolute;
+  left:530px;
 }
 
 
 .titleText{
-  font-size:70px;
+  font-size:50px;
   font-weight:200;
-  margin:80px 20px 5px 0px;
+  margin:40px 20px 0px 0px;
 }
 
 
 
 .boldText
 {
-  font-size:70px;
+  font-size:50px;
   font-weight:bold;
-  margin:5px 20px 20px 0px
+  margin:-10px 20px 20px 0px
 }
 
 
@@ -91,7 +97,47 @@ body {
 
 .icon
 {
-float: left;
-margin:10px;
 
+}
+
+.twitter
+{float: left;
+  margin:20px;
+background-image:url("twitter.svg");
+background-repeat:no-repeat;
+height:30px;
+width:30px;
+
+}
+
+.behance
+{float: left;
+  margin:20px;
+  margin-top:24px;
+  background-image:url("behance.svg");
+  background-repeat:no-repeat;
+height:30px;
+width:30px;
+
+}
+
+.linkedin
+{float: left;
+  margin:20px;
+  background-image:url("linkedin.svg");
+  background-repeat:no-repeat;
+height:30px;
+width:30px;
+
+}
+
+
+.ball
+{
+  float: left;
+  margin:20px;
+  background-image:url("basketball.svg");
+  background-repeat:no-repeat;
+height:30px;
+width:30px;
 }

@@ -8,13 +8,16 @@ class IconsRow extends React.Component {
     super(props);
   }
   render() {
-    const iconname = './twitter.svg';
+    const iconname1 = 'ball';
+    const iconname2 = 'behance';
+    const iconname3 = 'linkedin';
+    const iconname4 = 'twitter';
     return (
       <div className="iconsrow">
-        <Icon text={iconname} />
-        <Icon text={iconname} />
-        <Icon text={iconname} />
-        <Icon text={iconname} />
+        <Icon iconClass={iconname1} />
+        <Icon iconClass={iconname2} />
+        <Icon iconClass={iconname3} />
+        <Icon iconClass={iconname4} />
       </div>
     );
   }
