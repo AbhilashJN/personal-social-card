@@ -13,3 +13,6 @@ class TitleText extends React.Component {
     );
   }
 }
+
+
+export default TitleText;

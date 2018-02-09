@@ -13,3 +13,6 @@ class ItalicsText extends React.Component {
     );
   }
 }
+
+
+export default ItalicsText;

@@ -13,3 +13,6 @@ class ContentText extends React.Component {
     );
   }
 }
+
+
+export default ContentText;

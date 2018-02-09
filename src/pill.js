@@ -12,3 +12,6 @@ class Pill extends React.Component {
     );
   }
 }
+
+
+export default Pill;

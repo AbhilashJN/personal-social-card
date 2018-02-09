@@ -13,3 +13,5 @@ class BoldText extends React.Component {
     );
   }
 }
+
+export default BoldText;
