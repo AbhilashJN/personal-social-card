@@ -6,7 +6,6 @@ import Card from './card';
 
 class AppContainer extends React.Component {
   render() {
-    const imgLink = 'img.png';
     return (
       <div className="container" >
         <Card />

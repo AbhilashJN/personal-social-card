@@ -22,7 +22,9 @@ body {
 {
   border-radius: 5px;
   background-color : #EEEEEE;
-  padding:10%
+  padding-top:30px;
+  padding-left:60px;
+  padding-bottom:90px;
 }
 
 
@@ -32,10 +34,10 @@ body {
   background-color:#D9D8D8;
   color:#7C7C7C;
   width:fit-content;
-  padding-left:8px;
-  padding-right: 8px;
-  padding-top: 8px;
-  padding-bottom:8px;
+  padding-left:15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom:2px;
  
 }
 
@@ -47,9 +49,8 @@ body {
   float:right;
   background-image:url("person3.png");
   background-repeat: no-repeat;
-  
   position:absolute;
-  left:530px;
+  left:550px;
 }
 
 
@@ -81,7 +82,7 @@ body {
 .italicsText
 {
   width:46%;
-  margin:5px 20px 5px 0px;
+  margin:5px 20px 50px 0px;
   color:#7C7C7C;
   font-style: italic;
   font-weight:100;
@@ -103,31 +104,37 @@ body {
 .twitter
 {float: left;
   margin:20px;
+  margin-left:0px;
+  margin-right:35px;
 background-image:url("twitter.svg");
 background-repeat:no-repeat;
-height:30px;
-width:30px;
+height:20px;
+width:20px;
 
 }
 
 .behance
 {float: left;
   margin:20px;
+  margin-left:0px;
   margin-top:24px;
+  margin-right:35px;
   background-image:url("behance.svg");
   background-repeat:no-repeat;
-height:30px;
-width:30px;
+height:20px;
+width:20px;
 
 }
 
 .linkedin
 {float: left;
   margin:20px;
+  margin-left:0px;
+  margin-right:35px;
   background-image:url("linkedin.svg");
   background-repeat:no-repeat;
-height:30px;
-width:30px;
+height:20px;
+width:20px;
 
 }
 
@@ -136,8 +143,10 @@ width:30px;
 {
   float: left;
   margin:20px;
+  margin-left:0px;
+  margin-right:35px;
   background-image:url("basketball.svg");
   background-repeat:no-repeat;
-height:30px;
-width:30px;
+height:20px;
+width:20px;
 }
